@@ -1,17 +1,17 @@
 class Simshot < Formula
   desc "App Store screenshot capture CLI (simctl only, no XCUITest)"
   homepage "https://github.com/kichiemon/simshot"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kichiemon/simshot/releases/download/v0.2.0/simshot-macos-arm64.tar.gz"
-      sha256 "f3fa2a972b68d9f9406e0c94ab3df30ac6b5f7e9f9bd1e931ed13d0ef7a4bd15"
+      url "https://github.com/kichiemon/simshot/releases/download/v0.2.1/simshot-macos-arm64.tar.gz"
+      sha256 "6819ad59d5999254085126c582dea5c31274646578b7931799419cc90cc7c62d"
     end
     on_intel do
-      url "https://github.com/kichiemon/simshot/releases/download/v0.2.0/simshot-macos-x86_64.tar.gz"
-      sha256 "d28e0bbeb42e4106dcfccd7334be506fae3c00b6ce26c0784fe0e67e46f8066e"
+      url "https://github.com/kichiemon/simshot/releases/download/v0.2.1/simshot-macos-x86_64.tar.gz"
+      sha256 "5a489aa2aa84190c12a4ae4c9cfb6309e1ea1037b26260d48bd9197dc730ca3f"
     end
   end
 
