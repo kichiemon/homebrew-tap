@@ -7,11 +7,11 @@ class Simshot < Formula
   on_macos do
     on_arm do
       url "https://github.com/kichiemon/simshot/releases/download/v0.2.0/simshot-macos-arm64.tar.gz"
-      sha256 "317c91b67a3727285be0b6b282c57aece58b5e1d79d4959606c4e0508ae1e121"
+      sha256 "f3fa2a972b68d9f9406e0c94ab3df30ac6b5f7e9f9bd1e931ed13d0ef7a4bd15"
     end
     on_intel do
       url "https://github.com/kichiemon/simshot/releases/download/v0.2.0/simshot-macos-x86_64.tar.gz"
-      sha256 "0a570bc663fd4920a3b22506e20ab5ee28389bc643bbc99517c8688e46afd6e4"
+      sha256 "d28e0bbeb42e4106dcfccd7334be506fae3c00b6ce26c0784fe0e67e46f8066e"
     end
   end
 
